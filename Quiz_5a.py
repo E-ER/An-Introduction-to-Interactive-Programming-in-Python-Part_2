@@ -11,6 +11,8 @@
 # The handler for each should be defined with one parameter, as in the above 
 # example. This parameter will receive a pair of screen coordinates, i.e., 
 # a tuple of two non-negative integers.
+# The mouse click handler is passed a single argument, position,
+# which is a tuple containing the horizontal and vertical coordinates where the mouse was clicked.
 
 # Quiz 5a, Question 2
 my_list = [0,1,2,3,4]
